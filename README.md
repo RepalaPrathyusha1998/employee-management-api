@@ -72,13 +72,15 @@ Create a database named:
 
 ```text
 employee_management
+```
 
 Configure the database connection in:
 
+``` text
 src/main/resources/application.properties
-
+```
 Example:
-
+``` text
 spring.datasource.url=jdbc:postgresql://localhost:5432/employee_management
 spring.datasource.username=postgres
 spring.datasource.password=YOUR_POSTGRES_PASSWORD
@@ -101,10 +103,12 @@ Run the following command from the project root:
 
 ```bash
 ./mvnw spring-boot:run
-
+```
 On Windows, you can use:
 
+```bash
 mvnw.cmd spring-boot:run
+```
 
 The API will start on:
 
@@ -113,7 +117,7 @@ http://localhost:8080
 Swagger UI:
 
 http://localhost:8080/swagger-ui/index.html
-```
+
 
 ## Testing
 
@@ -123,6 +127,7 @@ Run all tests with:
 
 ```bash
 mvnw.cmd test
+```
 The test suite covers:
 
 Employee creation
@@ -134,7 +139,6 @@ Request validation
 HTTP response status codes
 
 Current test suite: 15 tests
-```
 
 ## Project Structure
 
