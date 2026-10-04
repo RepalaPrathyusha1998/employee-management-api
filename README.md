@@ -172,3 +172,9 @@ Potential enhancements for future versions include:
 - Docker support
 - CI/CD pipeline
 - Cloud deployment
+
+## Screenshots
+
+### Swagger API Documentation
+
+![Swagger API Documentation](screenshots/swagger-api.png)
